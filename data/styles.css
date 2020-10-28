@@ -109,3 +109,11 @@ a {
   line-height: 16px;
   font-weight: 400;
 }
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  padding: 10px;
+  color: white;
+}
