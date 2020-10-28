@@ -1,119 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper-content {
-  color: #ceb67b;
-  margin: auto;
-  background: black;
-  text-decoration: none;
-  display: block;
-  padding: 10px;
+    color: #ceb67b;
+    margin: auto;
+    background: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
 }
 
-.wrapper-content > div {
-  height: 32px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: white;
-  width: 150px;
-  text-align: center;
+.wrapper-content div main {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: inline-block;
+    border-bottom: 1px solid #b3ab96;
+    padding-bottom: 5px;
+    background: none;
+    margin: 20px 0 10px 0;
+    color: white;
+    text-shadow: none;
 }
 
-.wrapper-content div.content main {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  display: inline-block;
-  border-bottom: 1px solid #b3ab96;
-  padding-bottom: 5px;
-  background: none;
-  margin: 20px 0 10px 0;
-  color: white;
-  text-shadow: none;
+.wrapper-content > main {
+    color: white;
+    max-width: 850px;
+    padding: 10px 0;
+    min-height: 400px;
+    position: relative;
+}
+
+.wrapper-content > main table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.wrapper-content > main table td {
+    vertical-align: middle;
+    font-size: 13px !important;
+    line-height: 16px;
+    font-weight: 400;
 }
 
 .center {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .page-content {
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 24px !important;
-  text-align: justify;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: #1e1e1e;
+    line-height: 24px !important;
+    text-align: justify;
 }
 
 .page-content h1 {
-  font-size: 30px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  margin-top: 35px;
-  color: #f87719;
-  font-weight: 400;
-  text-shadow: 1px 1px 2px rgba(110, 41, 8, 0.6);
-  margin-bottom: 10px;
-  text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 35px;
+    color: #f87719;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(110, 41, 8, 0.6);
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 table {
-  font-family: "Roboto", sans-serif;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-bottom: 10px !important;
-  -webkit-margin-before: 0 !important;
-  -webkit-margin-after: 0 !important;
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 10px !important;
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
 }
 
 table.artifacts {
-  text-align: center;
-  background-color: #1e1e1e;
-  border: 1px solid #555;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+    text-align: center;
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 table.artifacts tr:nth-child(odd) {
-  background-color: #333333;
+    background-color: #333333;
 }
 
 table.artifacts td {
-  padding: 15px 3px 15px 4px;
+    padding: 15px 3px 15px 4px;
 }
 
 a {
-  color: #ceb67b;
-  text-decoration: none;
-}
-
-.content > main {
-  color: white;
-  max-width: 850px;
-  padding: 10px 0;
-  min-height: 400px;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.content > main table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-}
-
-.content > main table td {
-  vertical-align: middle;
-  font-size: 13px !important;
-  line-height: 16px;
-  font-weight: 400;
+    color: #ceb67b;
+    text-decoration: none;
 }
 
 footer {
-  text-align: center;
-  background-color: #1e1e1e;
-  border: 1px solid #555;
-  padding: 10px;
-  color: white;
+    text-align: center;
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    padding: 10px;
+    color: white;
 }
